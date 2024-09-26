@@ -1,0 +1,295 @@
+/* RESET CSS  */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "inter", sans-serif;
+    padding-left: 30px;
+}
+
+
+/* HEADER SECTION  */
+main {
+    max-width: 1440px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.ham-div {
+    display: none;
+    font-size: 2rem;
+    ;
+}
+
+nav>a {
+    padding: 0 1rem;
+    color: rgb(51, 51, 51);
+}
+
+nav>a:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 6px;
+}
+
+nav>a:active {
+    color: rgb(1, 125, 61);
+    ;
+    ;
+}
+
+.clients-btn {
+    padding: 10px 15px;
+    border: 1px solid rgb(1, 125, 61);
+    background-color: white;
+    font-size: 1rem;
+    color: rgb(51, 51, 51);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.clients-btn:hover {
+    background-color: rgb(1, 125, 61);
+    ;
+    color: white;
+}
+
+.clients-btn:active {
+    opacity: 0.7;
+}
+
+/* MAIN SECTION  */
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+::placeholder {
+    color: grey;
+    font-size: 1rem;
+    padding: 12px;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+h5 {
+    display: block;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.input {
+    display: block;
+    width: 636px;
+    height: 64px;
+    border-radius: 6px;
+    border: 1px solid rgb(206, 212, 218);
+    margin-bottom: 2rem;
+}
+
+.state,
+.city {
+    display: inline-block;
+    width: 264.2px;
+    height: 64px;
+    margin-bottom: 2rem;
+}
+
+.state {
+    margin-right: 2rem;
+}
+
+textarea {
+    display: block;
+    width: 636px;
+    height: 88px;
+    border-radius: 6px;
+    border: 1px solid rgb(206, 212, 218);
+    margin-bottom: 2rem;
+}
+
+select {
+    width: 636px;
+    height: 88px;
+    font-size: 16px;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.building {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.bungalow {
+    margin-right: 1rem;
+}
+
+.out {
+    margin-right: 1rem;
+}
+
+.submit-btn {
+    width: 636px;
+    color: white;
+    background-color: green;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: opacity 0.25s ease;
+    border-radius: 6px;
+    border: 1px solid rgb(206, 212, 218);
+    padding: 1rem 0;
+}
+
+.submit-btn:hover {
+    opacity: 0.7;
+}
+
+.submit-btn:active {
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+
+}
+
+
+
+
+
+/* FOOTER SECTION  */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+    /* align-items: center; */
+}
+
+.foot-div1,
+.foot-div2,
+.foot-div3 {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 3rem; */
+}
+
+.foot-div1>a,
+.foot-div2>h3,
+.foot-div3>h3 {
+    margin-bottom: 2rem;
+}
+
+.foot-div1>a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.foot-div1>p {
+    width: 283.9px;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgb(33, 37, 41);
+}
+
+.foot-div2>a,
+.foot-div3>p {
+    margin-bottom: 15px;
+    color: rgb(51, 51, 51);
+}
+
+.foot-div3>p>i {
+    padding-right: 1rem;
+}
+
+/* SIDE BAR SECTION  */
+
+.side-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    background-color: white;
+}
+
+.side-bar>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    position: relative;
+    top: 50%;
+}
+
+.side-bar>div>a {
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.copyright {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.contact-us {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    position: fixed;
+    border-radius: 30px;
+    bottom: 3rem;
+    right: 8rem;
+    box-shadow: 10px 5px 5px black;
+    transition: opacity 0.15s;
+}
+
+.contact-us>i {
+    color: green;
+}
+
+.contact-us:hover {
+    opacity: 0.6;
+}
+
+.contact-us:active {
+    background-color: green;
+    color: white;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-instagram,
+.fa-envelope {
+    color: red;
+}
